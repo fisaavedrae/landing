@@ -1,17 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sedgwick+Ave+Display&display=swap');
-.principal
-{
+
+.principal {
     background-image: url('../imgs/fondo_cabecera.jpg');
-    
-    height:100px;
+
+    height: 100px;
     width: 100%;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
-.nombre_marca
-{
+
+.nombre_marca {
     font-family: 'Sedgwick Ave Display', cursive;
     font-weight: bold;
     font-size: 45px;
@@ -20,8 +19,8 @@
     padding-top: 10px;
     padding-left: 40px;
 }
-.bajada_marca
-{
+
+.bajada_marca {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 15px;
@@ -30,49 +29,48 @@
     padding-top: 5px;
     padding-left: 40px;
 }
-.imagen_producto
-{
+
+.imagen_producto {
     width: 300px;
     height: 400px;
     padding-top: 50px;
 }
 
-.nombre_producto
-{
-    font-family: 'Roboto Slab', serif; 
+.nombre_producto {
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
     font-weight: bold;
     padding-left: 5px;
     padding-bottom: 5px;
 }
-.descripcion_producto
-{
-    font-family: 'Roboto Slab', serif; 
+
+.descripcion_producto {
+    font-family: 'Roboto Slab', serif;
     font-size: 12px;
-    color:gray;
+    color: gray;
     padding-left: 5px;
     padding-right: 5px;
 }
-.tabla_productos
-{
+
+.tabla_productos {
     width: 100%;
     border: 0px;
     padding: 0%;
     margin: 0px;
 }
-.precio_producto
-{
-    font-family: 'Roboto Slab', serif; 
+
+.precio_producto {
+    font-family: 'Roboto Slab', serif;
     font-size: 15px;
     font-weight: bold;
     padding-left: 5px;
     padding-top: 5px;
-    color:#000000;
+    color: #000000;
 }
-footer
-{
+
+footer {
     background-color: #226CBE;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -82,13 +80,15 @@ footer
     height: 40px;
     color: white;
     padding-top: 5px;
-    
+
 }
+
 body {
     margin: 0;
     margin-bottom: 40px;
-  }
-  html {
+}
+
+html {
     min-height: 100%;
     position: relative;
-  }
+}
